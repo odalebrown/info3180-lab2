@@ -40,7 +40,7 @@ button{
 
 .post1{
      float: left;
-    padding-right: 10px;
+    padding-right: 100px;
 }
 .post2{
     float: Centre;
@@ -49,5 +49,7 @@ button{
 
 .post3{
     float: right;
+    padding-right:20px;
+    padding-bottom:10px;
 }
 
