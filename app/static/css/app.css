@@ -34,7 +34,8 @@ button{
 
 .num3{
     float: right;
-
+    padding-right: 40rem;
+    padding-bottom: 20rem;
 }
 
 .post1{
