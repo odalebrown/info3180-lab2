@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title> Profile Page</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+    </head>
+
+    <body>
+        {% extends "base.html" %}
+        {% block main %}
+        <div class="info">
+            <img src="{{url_for('static', filename= 'odale.png')}}" alt="picture of Odale"/>
+            <h1>Odale Brown</h1>
+            <p>@odaleb<p>
+            <p>St.Catherine, Jamaica</p>
+            <p>Joined February 2019</p>
+        </div>
+
+        <div>
+        <p> Once you got life, you got everything you want</p>
+        </div>
+
+        <div>
+            <p class="num1"><strong>10</strong></p>
+            <p class="num2"><strong>100</strong></p>
+            <p class="num3"><strong>200</strong></p>
+        </div>
+
+        <div>
+            <p class="post1">Post</p>
+            <p class="post2">Following</p>
+            <p class="post3">Followers</p>
+        </div>
+        <button type="button">Follow</button>
+    {% endblock %}
+    </body>
+
+</html>
